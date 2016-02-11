@@ -29,9 +29,8 @@ p{
     text-align: left;
 }
 
-div{
+#supportdiv{
     background-color: rgb(240, 240, 240);
     height: 100%;
     width: 100%;
     padding: 20px;
-}
