@@ -41,6 +41,10 @@ p{
 .p1{
     padding: 10px
 }
-.gray2{
+
+div{
     background-color: rgb(240, 240, 240);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
 }
