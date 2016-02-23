@@ -102,6 +102,7 @@ a{
 }
 #footer1{
     float: left;
+    border-right:
 }
 #footer2{
     float: left;
@@ -114,4 +115,11 @@ a{
     border-left-style: solid;
     border-color: lightgray;
     border-width: thin;
+}
+li{
+    list-style-image:url("/mmcafee.github.io/day6homework/img/checkmark-green.jpg");
+    
+}
+ul{
+    list-style-type: none;
 }
