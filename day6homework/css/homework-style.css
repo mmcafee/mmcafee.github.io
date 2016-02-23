@@ -1,3 +1,6 @@
+body{
+    font-family: sans-serif;
+}
 header{
     font-family: sans-serif;
     font-weight: none;
@@ -9,11 +12,15 @@ header{
 header p{
     margin-left: 50px;
     margin-right: 50px;
+    font-weight: lighter;
 }
 
 main{
     height: 300px;
     width: 700px;
+}
+article p{
+    font-weight: lighter;
 }
 
 #left {
@@ -69,6 +76,7 @@ footer div{
 section p{
     font-size: 12px;
     text-align: left;
+    font-weight: lighter;
 }
 footer {
     float:clear;
@@ -118,8 +126,9 @@ a{
 }
 li{
     list-style-image:url("/mmcafee.github.io/day6homework/img/checkmark-green.jpg");
+    font-weight: lighter;
     
 }
-ul{
-    list-style-type: none;
+footer p{
+    font-weight: lighter;
 }
