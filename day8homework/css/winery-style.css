@@ -1,0 +1,126 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 20px;
+    padding: 15px;
+}
+
+header h1{
+    float: left;
+    text-transform: uppercase;
+}
+
+header nav{
+    float: right;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero{
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 100%), url('../img/wine-bg.jpg');
+    height: 500px;
+    background-position: center;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#hero h2{
+    margin-bottom: 50px;
+    font-size: 80px;
+}
+#about {
+    font-family: 'Slabo', serif;
+    height: 500px;
+    width: auto;
+}
+
+#history{
+    text-align: center;
+    float:left;
+    width: 700px;
+    height: 450px;
+    padding: 25px;
+}
+
+#history h3{
+    color:gray;
+    padding-top: 150px;
+    font-size: 18px;
+}
+
+#history h4{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 24px;
+}
+#history p{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#man{
+    float:right;
+    margin-right: 10px;
+    width: 450px;
+}
+#man img{
+    height: 500px;
+    width: 400px;
+}
+#working {
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 100%), url('../img/wine13.jpg');
+    height: 400px;
+    background-position: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#working h4{
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Slabo';animation: 
+}
+#wines{
+    width:900px;
+    padding:10px;
+}
+#wines div{
+    width: 300px;
+}
+#shiraz{
+    float: left;
+    width:275px;
+}
+#shiraz img{
+    width: 275px;
+}
+#chardonnay {
+    float: left;
+    width: 275px;
+}
+#chardonnay img{
+    width: 275px
+}
+#merlot{
+    float: right;
+    width: 275px;
+}
+#merlot img{
+    width: 275px;
+}
