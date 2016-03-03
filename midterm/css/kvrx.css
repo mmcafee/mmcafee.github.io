@@ -1,0 +1,164 @@
+.container{
+    height: 100px;
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    height:100px;
+    background: white;
+    font-family: 'Roboto';
+    top: 0px;
+    margin: 0 auto;
+    background: white;
+}
+/*.clear-fix{
+    content:'';
+    display: block;
+    clear: both;
+}*/
+#main-logo{
+    height: 75px;
+    width: 75px;
+    float: left;
+}
+header h1{
+    font-size: 1.7em;
+    font-family: 'Roboto';
+    padding-left: 30px;
+    padding-top: 25px;
+    width: 500px;
+    float: left;
+    font-weight: bold;
+}
+header nav{
+  float:right;
+  margin-right: 30px;
+  padding-top: 25px;
+}
+header nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0px;
+    font-size: 1.5em;
+    margin: 20px;
+}
+header nav a:hover{
+  text-decoration: underline;
+}
+#instagram{
+  height:25px;
+  width:25px;
+}
+#facebook {
+  height:25px;
+  width:25px;
+}
+#hero {
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('http://i.imgur.com/cPg8jhe.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  width: 100%;
+  margin:0 auto;
+  height:400px;
+  /*float:left;*/
+}
+#hero div{
+  text-align: center;
+  font-family:'Roboto';
+  font-weight: bold;
+  font-size:50px;
+  text-transform: uppercase;
+  color:white;
+  padding-top: 160px;
+  padding-left: 90px;
+  padding-right: 90px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+#live{
+  width:100%;
+  margin: auto 0;
+  height: 500px;
+  border-top-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+}
+.live-photo{
+  width: 25%;
+  margin:0px auto;
+  border: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  /*float:left;*/
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.live-photo h1{
+  font-size: 1.5em;
+}
+.live-photo h4{
+  font-size:1.2em;
+}
+.live-photo a{
+  text-decoration: none;
+  color:black;
+  font-size:1.1em;
+}
+.live-photo a:hover{
+  text-decoration:underline;
+}
+#on-air{
+  float: left;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight:bold;
+}
+#on-air img{
+  width:100%;
+  /*margin:10px;*/
+}
+#local-live{
+  /*margin:10px;*/
+  /*padding-left: 200px;*/
+  /*width:407.75px;
+  height:710px;*/
+  float:left;
+margin-left: 185px;*/
+font-family:'Roboto';
+font-weight:bold;
+text-align: center;
+}
+#local-live img{
+  height:232px;
+  width: 232px;
+  margin:10px;
+  /*padding-left: 225px;*/
+}
+#local-live iframe{
+  width:100%;
+  height: 40%;
+  /*padding-left: 170px;*/
+}
+#events{
+  float:right;
+}
+
+#events img{
+  width:100%;
+  /*margin: 10px;*/
+  height:291.188px
+  padding-right: 10px;
+}
+#events p{
+  padding-top: 19px;
+}
+#live div{
+  margin: 20px;
+}

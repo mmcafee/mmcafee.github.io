@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: black;
+    color:white;
+    margin: 0 auto;
+    top:0px;
+    font-weight: lighter;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#hero{
+    width: 100%;
+}
+#hero img{
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#about{
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 50px;
+    text-align: center;
+}
+#about h1{
+    font-weight: bold;
+    font-size:32px;
+}
+
+.footer{
+    width: 100%;
+}
+.footer div{
+    width: 350px;
+    display: block;
+}
+#flag{
+    float: left;
+    width: 300px;
+}
+#flag img{
+    width: 300px;
+    height: 308px;
+}
+#scooter{
+    float: left;
+    width:300px;
+    margin-left: 200px;
+    height: 308px;
+}
+#scooter img{
+    width: 300px; 
+    height:308px;
+}
+#mountains{
+    float: right;
+    width:300px;
+}
+#mountains img{
+    width: 300px;
+    height: 308px;
+}
