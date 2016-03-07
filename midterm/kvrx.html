@@ -1,65 +1,150 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>KVRX Student Radio for The University of Texas at Austin</title>
-    <link rel="stylesheet" href="css/css-reset.css" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" href="css/kvrx.css"/>
-
-</head>
+    <head>
+    <title>KVRX Student Radio</title>
+        <link rel="stylesheet" href="css/kvrx-midterm.css"/>
+          <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+    </head>
 
 <body>
-    <header class="container" "clear-fix">
-        <img id="main-logo" src="img/kvrx-logo.jpg" />
-        <h1>None of the Hits, All of the Time</h1>
+    <header class="container">
+        <img src="img/kvrx-logo.jpg"/>
+    <h1>None of the Hits, All of the Time</h1>
         <nav>
-            <a href="#">Listen</a>
+        <a href="#">Listen</a>
             <a href="#">Contact</a>
             <a href="#">Donate</a>
-            <a href="https://www.instagram.com/kvrxaustin/"><img id="instagram" src="http://static.wixstatic.com/media/2d7e1e_9c0e604cc9374cd392e061a91f9b9387.png"></a>
-            <a href="https://www.facebook.com/kvrxaustin/"><img id="facebook" src="https://image.freepik.com/free-icon/facebook-logo_318-49940.jpg"></a>
+            <a id="instagram" href="#"><!--<img src="img/instagram-black.jpg"/>--></a>
+            <a id="facebook" href="#"><!--<img src="img/facebook-black.jpg"/>--></a>
         </nav>
     </header>
     <main class="container">
-        <section id="hero">
-          <div>
-            <h2>Local, indepedent student radio from<br> the University of Texas at Austin since 1994</h2>
-          </div>
+    <section id="hero">
+        <div>
+        <h2>Local, independent student radio from the University of Texas at Austin</h2>
+        </div>
         </section>
-        <section class="clearfix" id="live">
-            <div class="live-photo" id="on-air">
-              <h1>On-Air</h1>
-                <img src="img/keep-austin-chill.jpg" />
-                <h4>Now Playing:</h4>
-                <a href="#">Listen Live</a>
+        <section id="sounds" class="clear-fix">
+        <div id="air">
+            <h3>On-Air</h3>
+            <img src="img/keep-austin-chill.jpg"/>
+            <p>Now Playing:</p>
+            <a href="#">Listen Live</a>
             </div>
-            <div class="live-photo" id="local-live">
-              <h1>In-Studio</h1>
-               <img src="img/local-live.jpg" />
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/72yuprTXvMI" frameborder="0" allowfullscreen></iframe>
-                <h4>Since 1998, Local Live has showcased left-of-the-dial bands live on Sundays at 10 p.m.</h4>
-                <a href="#">Archives</a>
+            <div id="join">
+            <h3>Join KVRX</h3>
+                <img src="img/volunteer.jpg"/>
+                <p>Are you interested in hosting your own weekly music or talk show? Do you love discovering new sounds and topics?</p>
+                <p>Come see us on the West Mall every Friday at 1 p.m. and sign up for new DJ training.</p>
             </div>
-            <div class="live-photo" id="events">
-              <h1>Upcoming Events</h1>
-                <img src="img/concert-poster.jpg" />
-                <p>RSVP</p>
+            <div id="events">
+            <h3>Events</h3>
+                <img src="img/concert-poster.jpg"/>
+                <p><a href="#">RSVP</a></p>
             </div>
+            <div id="blogs">
+            <h3>Blogs</h3>
+                <img src="img/ringo.jpg"/>
+                <h4>Review: Ringo Deathstarr - Pure Mood</h4>
+                <p>Probably one of the most universally loved KVRX-core groups has done it again. Ringo Deathstarr know exactly what they're doing when they make tracks...<a href="#">More</a></p>
+            </div>
+        </section>
+        <section id="local-live" class="clear-fix">
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/72yuprTXvMI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="text">
+            <img src="img/local-live.jpg"/>
+                <p>Free audience tapings of Local Live are held in the Hearst Student Media Building (HSM) (2500 Whitis Ave).</p>
+                <p>Booking inquiries may be sent to production@kvrx.org.</p>
+                <p><a href="#">Archives</a></p>
+            </div>
+        </section>
+        <section id="connect">
+        <div>
+            <div class="picture-frame">
+            <img src="img/alumni.jpg"/>
+            </div>
+            <h2>Alumni</h2>
+            <p>Connect with former KVRXers on Facebook</p>
+            </div>
+            <div>
+            <div class="picture-frame">
+                <img src="img/charts.jpg"/>
+                </div>
+                <h2>Topless 39 Charts</h2>
+                <p>The most popular songs on KVRX this week.</p>
+            </div>
+        </section>
+
         </section>
     </main>
-    <!--<footer class="container">
-        <!--<img src="img/tsm-logo.jpg" />
-        <a>TSM</a>
-        <a>Cactus Yearbook</a>
-        <a>The Daily Texan</a>
-        <a>Longhorn Life</a>
-        <a>KVRX</a>
-        <a>TSTV</a>
-        <a>Texas Travesty</a>
-        <a>The University of Texas at Austin</a>
-        <a>KVRX Alumni</a>
-    </footer>-->
-</body>
+    <footer>
+    <section id="final">
+        <div id="tsm"><img src="img/tsm-logo.jpg"/></div>
+        <div id=footer-links><p>Site content ©2016 Texas Student Media</p>
+        <a href="http://sites.utexas.edu/cactus/">Cactus Yearbook</a>
+        <a href="http://www.dailytexanonline.com/">The Daily Texan</a>
+        <a href="http://www.longhornlifeonline.com/">Longhorn Life</a>
+        <a href="http://www.texasstudenttv.com/">TSTV</a>
+            <a href="http://texastravesty.com/">Texas Travesty</a></div>
+        </section>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </html>
