@@ -79,7 +79,8 @@ a img{
     width: 23%;
     height:550px;
     text-align: center;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
     border: 5px;
     border-color: black;
     border-style: solid;
@@ -95,7 +96,7 @@ a img{
     font-weight: bold;
 }
 #sounds p{
-    font-size: 1.2em;
+    font-size: 16px;
     font-weight: lighter;
 }
 #sounds a{
@@ -106,48 +107,48 @@ a img{
     text-decoration: underline;
 }
 #air img{
-    width: 200px;
-    height: 300px;
+    width: 85%;
+    height: 55%;
 }
 #air p{
-    font-size: 20px;
+    font-size: 16px;
 }
 #air a{
-    font-size:58px;
+    font-size:32px;
 }
 #join img{
-    width: 275px;
-    height: 200px;
+    width: 85%;
+    height: 35%;
 }
 #join p{
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     margin: 10px;
     margin-top: 20px;
 }
 #events img{
-    width: 200px;
-    height: 300px;
+    width: 85%;
+    height: 55%;
 }
 #events p{
-    font-size: 64px;
+    font-size: 32px;
     margin-top: 20px;
 }
 #blogs img{
-    width: 250px;
-    height: 250px;
+    width: 85%;
+    height: 35%;
 }
 #blogs p{
     text-align: left;
     margin: 10px;
 }
 #local-live{
-    padding: 50px 25px;
+    padding: 10px 10px;
     /*border: 1px;
     border-color: black;
     border-style: solid;
     border-width: thin;*/
-    width: 100%;
+    width: 98%;
     margin: 0 auto;
     height: 350px;
     
@@ -170,9 +171,10 @@ a img{
     font-size: 20px;
 }
 .text img{
-    width: 200px;
-    height: 200px;
+    width: 35%;
+    height: 35%;
     float: left;
+    padding-right: 5px;
 }
 #connect{
     width: 100%;
@@ -264,11 +266,11 @@ footer{
 }
 footer #tsm{
     float: left;
-    padding-right: 25px;
 }
 footer #tsm img{
-    width:100px;
-    height: 100px;
+    width:75%;
+    height: 75%;
+    padding-top: 5px;
 }
 footer #final-links{
     margin-left: 50px;
@@ -279,10 +281,8 @@ footer #final-links{
     text-decoration: none;
     font-family: 'Roboto';
     font-size: 20px;
-    margin: 10px;
-    border: solid;
-    border-width: thin;
-    padding: 10px;
+    margin: 5px;
+    padding-bottom: 10px
 }
 #footer-links a:visited{
     text-decoration: none;
