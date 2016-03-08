@@ -232,6 +232,25 @@ a img{
     color:white;
 }
 
+#alumni a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#topless a{
+    text-decoration: none;
+    color:white;
+}
+
+#topless a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#topless a:visited{
+    text-decoration: none;
+    color: white;
+}
+
 #topless{
      background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://scontent-ord1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10171100_10205412944191355_4766299475337656958_n.jpg?oh=26936040fefb645eb77fa0371f8e30e8&oe=5795B8A3');
     background-position: center;
