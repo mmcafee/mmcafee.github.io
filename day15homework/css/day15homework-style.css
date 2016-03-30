@@ -1,0 +1,201 @@
+body{
+    width: 100%;
+    margin: auto 0;
+}
+
+#hero1{
+    background: url('/mmcafee.github.io/day15homework/img/hero1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.flogo{
+    opacity: 0.75;
+    vertical-align: middle;
+    border: 0;
+}
+
+#hero1{
+    text-align: center;
+    color: white;
+}
+
+#hero1 div h4{
+    font-size: 24px
+}
+
+#about{
+    text-align: center;
+    display: block;
+}
+#about div h5{
+    font-style: italic;
+    padding: 10px;
+}
+#about div h4{
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 24px;
+    padding: 20px;
+}
+#about div p{
+    font-weight: lighter;
+    line-height: 200%;
+    font-size: 21px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#signature{
+    max-height: 80px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/*#man img{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}*/
+#man{
+    background-image: url('/mmcafee.github.io/day15homework/img/man.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#fine-wine{
+    background: url('/mmcafee.github.io/day15homework/img/hero2.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 600px;
+}
+#fine-wine h1{
+    font-size: 32px;
+    font-style: italic;
+    padding-top: 275px;
+}
+
+#fine-wine p{
+    font-size: 16px;
+}
+
+#wines{
+    text-align: center;
+}
+.vinos{
+    margin: 0 auto;
+}
+.vinos img{
+    height: 525px;
+    position: center;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.vinos h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+.vinos p{
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+}
+
+.button-link{
+    padding:10px 15px;
+    background: #669966;
+    color: white;
+}
+
+.button-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#man2{
+    background-image: url('/mmcafee.github.io/day15homework/img/man.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#about2{
+    text-align: center;
+    display: block;
+}
+#about2 div h5{
+    font-style: italic;
+    padding: 10px;
+}
+#about2 div h4{
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 24px;
+    padding: 20px;
+}
+#about2 div p{
+    font-weight: lighter;
+    line-height: 200%;
+    font-size: 21px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#signature2{
+    max-height: 100px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+#man3{
+    background-image: url('/mmcafee.github.io/day15homework/img/man.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#about3{
+    text-align: center;
+    display: block;
+}
+#about3 div h5{
+    font-style: italic;
+    padding: 10px;
+}
+#about3 div h4{
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 24px;
+    padding: 20px;
+}
+#about3 div p{
+    font-weight: lighter;
+    line-height: 200%;
+    font-size: 21px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#signature3{
+    max-height: 100px;
+    max-width: 100%;
+    vertical-align: middle;
+}
