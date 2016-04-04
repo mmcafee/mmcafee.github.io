@@ -1,6 +1,4 @@
-main{
-    background: #;
-}
+
 
 /*div {
     height: 600px;
@@ -13,6 +11,10 @@ main{
     min-height: 225px;
     margin-top: 27px;
     text-align: center;
+}
+
+#responsive h4{
+    padding-top: 100px;
 }
 
 .yellow-bg {
