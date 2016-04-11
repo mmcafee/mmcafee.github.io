@@ -1,0 +1,239 @@
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand{
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    text-decoration: underline;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#main-logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+main{
+    margin-top: 50px;
+}
+
+#hero1{
+    text-align: center;
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://scontent.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/422438_399765180039844_733071005_n.jpg?oh=636c2a6f413ae4dab7858fcdb4f98f62&oe=578C1029');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    
+}
+
+#hero1 h1{
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 125px;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+#phone-hero-h1 h1{
+    font-size: 16px;
+}
+
+#sounds{
+    margin-top: 20px; 
+}
+
+#sounds div{
+    background-color: #FFD700;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    min-height: 742px;
+}
+
+#sounds .col-sm-6 div{
+    max-height: 742px;
+    min-height: 742px;
+}
+
+#events.col-sm-6{
+    max-height: 742px;
+    min-height: 742px;
+}
+
+#sounds div img{
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+#sounds div h3{
+    margin: 10px;
+}
+
+#sounds div p{
+    font-size: 18px;
+}
+
+#sounds a{
+    color: black;
+}
+
+#sounds a:hover{
+    text-decoration: underline
+}
+
+#sounds a:visited{
+    text-decoration: none;
+}
+
+#local-live div{
+    min-height: 331px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#local-live div img{
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#local-live div iframe{
+    width: 100%;
+}
+
+#local-live p{
+    font-size: 22px;
+}
+
+#local-live .col-md-3 p{
+    text-align: left;
+    font-size: 22px;
+}
+
+#local-live .col-sm-6 p{
+    text-align: center;
+    font-size: 34px;
+}
+
+#local-live .col-xs-12 p{
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+
+
+#local-live a{
+    color: black;
+}
+
+#local-live a:visited{
+    color: #FFD700;
+}
+
+#contact>div{
+     background-color: #FFD700;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    min-height: 400px;
+}
+#alumni{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://scontent-ord1-1.xx.fbcdn.net/hphotos-xfa1/t31.0-8/10896444_751815501553387_2168233568794671_o.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    min-height: 315px;
+}
+
+#alumni h2{
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 315px;
+}
+
+#alumni a{
+    color: white;
+}
+
+#alumni a:hover{
+    color: white;
+}
+
+#topless a{
+    color: white;
+}
+
+#topless a:hover{
+    color: white;
+}
+
+#topless{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://scontent-ord1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10171100_10205412944191355_4766299475337656958_n.jpg?oh=26936040fefb645eb77fa0371f8e30e8&oe=5795B8A3');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    min-height: 315px;
+    
+}
+
+#topless h2{
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 315px;
+}
+
+#contact div p{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer div a{
+    color:white;
+    font-size: 22px;
+    vertical-align: middle;
+    line-height: 100px;
+    margin: 10px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer a:visited{
+    color:#FFD700;
+}
+
